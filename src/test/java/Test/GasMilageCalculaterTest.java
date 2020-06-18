@@ -82,7 +82,7 @@ driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
             if (currentRow.getCell(4)==null){
                 currentRow.createCell(4);
             }
-            currentRow.getCell(4).setCellValue(decimalFormat.format(expectedResult);
+            currentRow.getCell(4).setCellValue(decimalFormat.format(expectedResult));
             if (currentRow.getCell(5)==null) {
                 currentRow.createCell(5);
             }
