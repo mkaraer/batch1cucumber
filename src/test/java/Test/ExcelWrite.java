@@ -33,7 +33,7 @@ public class ExcelWrite {
         FileOutputStream outputStream= new FileOutputStream(path);
         workbook.write(outputStream);
         System.out.println("After: "+adamCell);
-
+System.out.println( adamCell);
 
 
         //TODO Change Job ID For Trump to President,Dynamically
